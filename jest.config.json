@@ -1,0 +1,14 @@
+{
+  "setupFiles": [
+    "raf/polyfill",
+    "<rootDir>/src/__tests__/setupTests.js"
+  ],
+  "testPathIgnorePatterns": [
+    "<rootDir>/src/__tests__/fixtures/",
+    "<rootDir>/src/__tests__/setupTests.js",
+    "<rootDir>/src/__tests__/__mocks__/moment.js"
+  ],
+  "snapshotSerializers": [
+    "enzyme-to-json/serializer"
+  ]
+}
